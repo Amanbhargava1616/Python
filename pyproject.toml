@@ -1,0 +1,9 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Project for python practice"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "kafka-python>=2.3.1",
+]
