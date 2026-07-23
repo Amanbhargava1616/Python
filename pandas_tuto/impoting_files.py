@@ -1,8 +1,6 @@
 import pandas as pd
 
-csv_data = pd.read_csv(
-    r"C:\Users\amaab\OneDrive\Desktop\Python\pandas_tuto\MOCK_DATA.csv", index_col="id"
-)
+csv_data = pd.read_csv(r"C:\Users\amaab\OneDrive\Desktop\Python\pandas_tuto\MOCK_DATA.csv", index_col="id")
 
 print(csv_data.to_string())
 

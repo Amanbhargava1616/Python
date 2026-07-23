@@ -15,4 +15,3 @@ print(btw_6_and_12)
 
 arr_lt_5 = np.where((arr < 5) & (arr > 3), arr, 0)
 print(arr_lt_5)
- 

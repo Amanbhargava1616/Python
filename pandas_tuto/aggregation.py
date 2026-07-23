@@ -1,8 +1,6 @@
 import pandas as pd
 
-user_data = pd.read_csv(
-    r"C:\Users\amaab\OneDrive\Desktop\Python\pandas_tuto\MOCK_DATA.csv"
-)
+user_data = pd.read_csv(r"C:\Users\amaab\OneDrive\Desktop\Python\pandas_tuto\MOCK_DATA.csv")
 
 
 print(user_data.mean(numeric_only=True))

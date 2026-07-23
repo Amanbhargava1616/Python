@@ -11,5 +11,5 @@ from time import sleep
 print(os.path.exists("./file_handling_1.py"))
 
 
-current_dire=os.getcwd()
+current_dire = os.getcwd()
 print(current_dire)
