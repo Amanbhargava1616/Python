@@ -1,0 +1,10 @@
+FastAPI
+├── Pydantic
+├── SQLAlchemy
+├── PostgreSQL
+├── Alembic
+├── Redis
+├── JWT authentication
+├── OAuth 2.0
+├── pytest
+└── Docker
