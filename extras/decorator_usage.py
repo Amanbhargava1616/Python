@@ -1,12 +1,14 @@
 import time
+from functools import wraps
 
 
 def add_salt(func):
+    @wraps(func)
     def wrapper(*args, **kwargs):
         start_time = time.time()
-        print(f"Salt Added")
+        print("Salt Added")
         result = func(*args, **kwargs)
-        print(f"Time to prepare Dish: {time.time()-start_time}")
+        print(f"Time to prepare Dish: {time.time() - start_time:.2f} seconds")
         return result
 
     return wrapper
