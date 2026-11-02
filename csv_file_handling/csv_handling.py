@@ -12,5 +12,5 @@ with open(csv_path) as csv_file:
 
 with open(csv_path) as csv_file:
     csv_file_data_from_dict_reader = csv.DictReader(csv_file)
-    for data2 in csv_file_data_from_dict_reader:
-        print(data2)
+    for data in csv_file_data_from_dict_reader:
+        print(data)
